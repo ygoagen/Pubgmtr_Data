@@ -1,0 +1,126 @@
+body {
+}
+
+.TagList__outer {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.TagList__title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.TagList__tagFilter {
+  margin-bottom: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.TagList__tagFilterInput {
+  width: 100%;
+  display: block;
+  padding: 0.5em 0.75em;
+}
+
+.TagList__tagDateFilter {
+  max-width: 320px;
+}
+
+.react-datepicker__close-icon {
+  height: auto !important;
+  padding: 0.5em 0.75em;
+  margin-top: 1em;
+}
+
+.react-datepicker__input-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-datepicker__input-container input {
+  padding: 0.5em 0.75em;
+  margin-left: 1em;
+}
+
+/* .TagList__tagCharts {
+  overflow-y: scroll;
+} */
+
+.TagChart__outer {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 2em;
+}
+
+.TagChart__ruler {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.TagChart__title {
+  margin-bottom: "1em";
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.TagChart__TabName {
+  margin-left: 0.5em;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  padding: 0.25em 0.75em;
+  color: #c05621;
+  border-radius: 5em;
+  background-color: #feebc8;
+}
+
+.TagChart__link {
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+.TagChart__canvasWrapper {
+  height: 320px;
+  margin-bottom: 2em;
+}
+
+.TagChart__noData {
+  height: 320px;
+  width: 100%;
+  background-color: #f7f7f7;
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TabNames__outer {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.TabName__inner {
+  cursor: pointer;
+  padding: 0.5em 0.75em;
+}
+
+.TabName__inner.TabName__active {
+  color: rgb(28 100 242);
+  cursor: default;
+  background-color: rgb(243 244 246);
+}
+
