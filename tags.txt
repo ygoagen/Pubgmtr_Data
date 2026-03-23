@@ -49,3 +49,5 @@ pubgmtaraftar -- #pubgmtaraftar
 GSPUBGM -- #pubgmtaraftar
 BJKPUBGM -- #pubgmtaraftar
 FBPUBGM -- #pubgmtaraftar
+PUBGM8ANNI -- #8yil
+PUBGM8YAŞINDA -- #8yil
